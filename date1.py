@@ -1,6 +1,6 @@
 import  datetime 
 
-t = datetime.datetime(1,2,3)
+t = datetime.datetime(2018,2,3 ,1,2,3,4)
 now1 = datetime.datetime.now()
 
 print('user time: ',t)
@@ -15,11 +15,11 @@ print('Tzinfo: ', t.tzinfo);
 
 ''' OUTPUT
 
-user time:  0001-02-03 00:00:00
+user time:  2018-02-03 01:02:03.000004
 
-System time  2018-07-13 11:32:13.147310
-Hours:  0
-Minutes:  0
-Seconds:  0
+System time  2018-07-13 11:37:49.320285
+Hours:  1
+Minutes:  2
+Seconds:  3
 Tzinfo:  None
 '''
